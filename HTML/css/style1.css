@@ -90,29 +90,21 @@
 }
 
 .home-cover {
-    background-image: url('../img/patrick-tomasso-432041-unsplash.jpg');
-    /*
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-*/
     height: 100%;
-
-}
-
-
-.home-content-box {
-    width: 100%;
-    height: 100%;
-    display: table;
-
 }
 
 .home-content-box-inner {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/patrick-tomasso-432041-unsplash.jpg');
+    padding: 10em 0em;
 }
 
 
@@ -139,9 +131,7 @@ words on the image*/
 }
 
 .home-cover {
-
     -webkit-animation-delay: .1s;
-
     animation-delay: .1s;
 
 }
