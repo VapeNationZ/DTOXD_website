@@ -179,3 +179,38 @@ words on the image*/
     /*so that vo center mai aaye */
 
 }
+/***************************************************************************************
+                                COUNTER
+***************************************************************************************/
+
+.containert {
+  color: white;
+  text-align: center;
+
+}
+
+#headt {
+  font-weight: normal;
+  color: white;
+
+}
+
+.lit {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type:none;
+  padding: 0.5em;
+  text-transform: uppercase;
+    color: white;
+}
+
+.spant {
+  display: block;
+  font-size: 4.5rem;
+    color: white;
+}
+.maint {
+  box-sizing: border-box;
+  margin: 0;
+
+}
