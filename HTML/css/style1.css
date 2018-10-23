@@ -192,6 +192,7 @@ words on the image*/
 #headt {
   font-weight: normal;
   color: white;
+  padding-left: 10px;
 
 }
 
@@ -202,6 +203,7 @@ words on the image*/
   padding: 0.5em;
   text-transform: uppercase;
     color: white;
+    padding-right: 27px;
 }
 
 .spant {
@@ -236,12 +238,13 @@ words on the image*/
 }
 
 .about-bg-diagonal{
-    width: 60%;
+    width: 40%;
     height: 700px;
     float: right;
     background-image: url('../img/imageimg.jpg');
     border-top: solid 700px transparent;
     border-left: solid -150px white;
+
 
 
 
