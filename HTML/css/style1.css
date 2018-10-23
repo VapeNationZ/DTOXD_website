@@ -214,3 +214,64 @@ words on the image*/
   margin: 0;
 
 }
+/***************************************************************************************
+                                 ABOUT SECTION CSS
+***************************************************************************************/
+
+.about-content-box{
+    float: left;
+    height: 700px; /* Image will also have same height */
+}
+.about-content-box-outer{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.about-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.about-btn{
+    text-align: center;
+}
+
+.about-bg-diagonal{
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url('../img/imageimg.jpg');
+    border-top: solid 700px transparent;
+    border-left: solid -150px white;
+
+
+
+
+
+/*
+
+    background-image: red;
+     border-top: solid 700px green;
+    border-left: solid 200px yellow;
+    it gives diagonal cut border with margins at top and bottom
+    red woul b basically image space
+    green is top bottom which when increased by pixels gives a diagonal/cross cut
+    yellow  also wen increased gives a diagonal to green margin
+    depending how u want image u can vary it from
+    bottom top
+    bottom-down
+    bootom left
+    bottom right
+
+
+                   ANOTHER METHOD
+    position: absolute;
+    width: 100%/ 50%;
+    height: 100%;
+    color: aquamarine;
+    skew(x/y)=(40deg);
+    transform: skew(0deg, -10deg) translatey(-100px);
+                    x:       y;
+    //check text.html
+*/
+}
+
