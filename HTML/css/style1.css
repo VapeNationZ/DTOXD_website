@@ -179,65 +179,73 @@ words on the image*/
     /*so that vo center mai aaye */
 
 }
+
 /***************************************************************************************
                                 COUNTER
 ***************************************************************************************/
 
 .containert {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 
 }
 
 #headt {
-  font-weight: normal;
-  color: white;
-  padding-left: 10px;
+    font-weight: normal;
+    color: white;
+    padding-left: 10px;
 
 }
 
 .lit {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type:none;
-  padding: 0.5em;
-  text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0.5em;
+    text-transform: uppercase;
     color: white;
     padding-right: 27px;
 }
 
 .spant {
-  display: block;
-  font-size: 4.5rem;
+    display: block;
+    font-size: 4.5rem;
     color: white;
 }
+
 .maint {
-  box-sizing: border-box;
-  margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
 
 }
+
 /***************************************************************************************
                                  ABOUT SECTION CSS
 ***************************************************************************************/
 
-.about-content-box{
+.about-content-box {
     float: left;
-    height: 700px; /* Image will also have same height */
+    height: 700px;
+    /* Image will also have same height */
 }
-.about-content-box-outer{
+
+.about-content-box-outer {
     display: table;
     width: 100%;
     height: 100%;
 }
-.about-content-box-inner{
+
+.about-content-box-inner {
     display: table-cell;
     vertical-align: middle;
 }
-.about-btn{
+
+.about-btn {
     text-align: center;
 }
 
-.about-bg-diagonal{
+.about-bg-diagonal {
     width: 40%;
     height: 700px;
     float: right;
@@ -250,7 +258,7 @@ words on the image*/
 
 
 
-/*
+    /*
 
     background-image: red;
      border-top: solid 700px green;
@@ -278,3 +286,7 @@ words on the image*/
 */
 }
 
+/*****************SOCIAL ICONS********************/
+.social-ic i {
+    padding: 0.3em 0.6em;
+}
